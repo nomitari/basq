@@ -41,14 +41,35 @@ body
 
 .img1
 {
-	width: 340px;
-	height: auto;
+width: 340px;
+height: auto;
+
+    -webkit-filter: grayscale(100%) !important;
+filter: grayscale(100%) !important;
 }
 
 .img2
 {
-	width: auto;
-	height: 300px;
+width: 350px;
+height: auto;
+
+-webkit-filter: grayscale(100%) !important;
+filter: grayscale(100%) !important;
+}
+
+.img1:hover, .img2:hover
+{
+-webkit-filter: grayscale(0) !important;
+filter: grayscale(0) !important;
+}
+
+/*Prevents image overlap somehow*/
+
+@media screen and (max-width: 2000px) {
+  .img1, .img2 {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 .fakeimg
