@@ -1,15 +1,23 @@
 body
 {
-	background-color: black;
+	/*background-color: black;*/
 	color: white;
-	/*background-image: url("paper.gif");*/
-	/*background-repeat: repeat-y;*/
+	background: url('img/basq-bg.png');
+	background-repeat: repeat-y;
+	left: 0;
+	width: 100vw;
+	background-size: 100vw;
+}
+
+.header-font
+{
+	font-family: 'Staatliches', cursive;
 }
 
 .banner
 {
 	padding: 1rem 0rem;
-	background-color: #000000;
+	background-color: transparent;
 	padding-bottom: 0;
 }
 
@@ -44,7 +52,7 @@ body
 
 .navbar
 {
-	background-color: black;
+	background-color: transparent;
 	text-align: center;
 	padding-bottom: 1.5em;
 	padding-top: 1em;
@@ -55,7 +63,7 @@ body
 {
 	padding-left: 2em;
 	padding-right: 2em;
-
+	font-size: 1.15em;
 }
 
 h1 
