@@ -26,6 +26,19 @@ body
 	padding-bottom: 0;
 }
 
+.footer
+{
+	padding-bottom: 5em;
+	padding-top: 6em;
+	text-align: center;
+}
+
+.icon-link
+{
+	padding: 3em;
+	color: white;
+}
+
 .img1
 {
 	width: 340px;
