@@ -1,6 +1,5 @@
 body
 {
-	/*background-color: black;*/
 	color: white;
 	background: url('img/basq-bg.png');
 	background-repeat: repeat-y;
@@ -31,7 +30,7 @@ body
 .footer
 {
 	padding-bottom: 5em;
-	padding-top: 3em;
+	padding-top: 5em;
 	text-align: center;
 }
 
@@ -43,41 +42,33 @@ body
 
 .img1
 {
-width: 340px;
-height: auto;
+	width: 340px;
+	height: auto;
 
-    -webkit-filter: grayscale(100%) !important;
-filter: grayscale(100%) !important;
+	-webkit-filter: grayscale(100%) !important;
+	filter: grayscale(100%) !important;
 }
 
 .img2
 {
-width: 350px;
-height: auto;
+	width: 350px;
+	height: auto;
 
--webkit-filter: grayscale(100%) !important;
-filter: grayscale(100%) !important;
+	-webkit-filter: grayscale(100%) !important;
+	filter: grayscale(100%) !important;
 }
 
 .img1:hover, .img2:hover
 {
--webkit-filter: grayscale(0) !important;
-filter: grayscale(0) !important;
+	-webkit-filter: grayscale(0) !important;
+	filter: grayscale(0) !important;
 }
 
-/*Prevents image overlap somehow*/
-
-@media screen and (max-width: 2000px) {
-  .img1, .img2 {
-    width: 100%;
-    padding: 0;
-  }
-}
 
 .fakeimg
 {
-    height: 200px;
-    background: #aaa;
+	height: 200px;
+	background: #aaa;
 }
 
 .title-image
@@ -100,6 +91,23 @@ filter: grayscale(0) !important;
 	border-bottom: 1px solid white;
 }
 
+.navbar-toggler
+{
+	text-align: center;
+	border: none;
+	/*background-color: rgba(254, 80, 161, 0.7);*/
+	/*border-radius: 0;*/
+}
+
+button:focus
+{
+	outline: none;
+	color: #fe50a1;
+	box-shadow: 0 0 0 1px #fe50a1;
+	border-radius: 0;
+}
+
+
 .nav-item
 {
 	padding-left: 2em;
@@ -107,9 +115,41 @@ filter: grayscale(0) !important;
 	font-size: 1.15em;
 }
 
+.contact
+{
+	display: flex;
+	justify-content: center;
+}
+
+.contact-panel
+{
+	text-align: center;
+}
+
+.panel-heading
+{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: auto;
+}
+
+#email
+{
+	text-align: center;
+	color: #fe50a1;
+	font-size: 110%;
+	padding-top: 2em;
+}
+
 h1 
 {
 	margin-bottom: 0;
+}
+
+p
+{
+	padding-top: 0.2em;
 }
 
 a:hover 
@@ -133,9 +173,27 @@ a:active
 	color: #fe50a1 !important;
 }
 
+.col-sm-4
+{
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
 .nav-link{
 
 	color: white !important;
+}
+
+
+/*Prevents image overlap somehow*/
+
+@media screen and (max-width: 2000px)
+{
+	.img1, .img2
+	{
+		width: 100%;
+		padding: 0;
+	}
 }
 
 @media screen and (min-width:576px)
@@ -144,6 +202,46 @@ a:active
 	{
 		padding:1rem 0rem;
 		padding-bottom: 0;
+	}
+}
+
+/*575 is when navbar becomes hamburger menu*/
+@media screen and (max-width:575px)
+{
+	.navbar
+	{
+		justify-content: center;
+		text-align: center;
+		/*background-color: rgba(254, 80, 161, 0.8);*/
+		border-bottom: none;
+		border-radius: 10px;
+		padding-bottom: 0.1em;
+		padding-top: 0.1em;
+		margin-top: 1.5em;
+		margin-bottom: 0;
+	}
+	a:active
+	{
+		color: #fe50a1 !important;
+	}
+	.container
+	{
+		max-width: 85vw;
+	}
+	body
+	{
+		font-size: 1.3rem;
+	}
+	.footer
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-top: 1em;
+	}
+	.panel-footer
+	{
+		margin-bottom: 1em;
 	}
 }
 
@@ -161,13 +259,33 @@ a:active
 	{
 		width: 80vw;
 	}
+	.footer
+	{
+		padding-bottom: 1em;
+		padding-top: 4em;
+	}
+	.icon-link
+	{
+		padding: 1em;
+		color: white;
+	}
+	body
+	{
+		background: url('img/basq-bg-narrow-screen.png');
+		background-size: 100vw;
+		background-attachment: fixed;
+	}
+	.title-image
+	{
+		width: 65vw;
+	}
 }
 
 @media screen and (max-width: 780px)
 {
-.nav-item
-{
-padding-left: 1em;
-padding-right: 1em;
-}
+	.nav-item
+	{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
 }
