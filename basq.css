@@ -181,7 +181,12 @@ a:active
 .col-sm-4
 {
 	padding-bottom: 1em;
-	padding-top: 1em;
+	padding-top: 0;
+}
+
+.col-sm-8
+{
+	padding-top: 0;
 }
 
 .nav-link{
