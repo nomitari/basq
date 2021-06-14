@@ -123,7 +123,12 @@ a:active
 	color: #fe50a1 !important;
 }
 
-.col-sm4:hover, .panel-heading:hover, .panel-footer:hover
+.col-sm4:hover, .panel-heading:hover, .panel-footer:hover 
+{
+	color: #fe50a1 !important;
+}
+
+.col-sm-4:hover .panel-heading 
 {
 	color: #fe50a1 !important;
 }
