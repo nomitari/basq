@@ -8,6 +8,11 @@ body
 	background-size: 100vw;
 }
 
+a
+{
+	color: white;
+}
+
 .header-font
 {
 	font-family: 'Staatliches', cursive;
@@ -174,7 +179,7 @@ a:active
 	color: #fe50a1 !important;
 }
 
-.col-sm4:hover, .panel-heading:hover, .panel-footer:hover 
+.col-sm-4:hover, .panel-heading:hover, .panel-footer:hover 
 {
 	color: #fe50a1 !important;
 }
