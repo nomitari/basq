@@ -156,3 +156,12 @@ a:active
 		width: 80vw;
 	}
 }
+
+@media screen and (max-width: 780px)
+{
+.nav-item
+{
+padding-left: 1em;
+padding-right: 1em;
+}
+}
