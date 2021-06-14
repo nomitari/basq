@@ -1,3 +1,19 @@
+// change banner img on hover
+
+function hover(element)
+{
+  element.setAttribute('src', 'img/header-pink.png');
+}
+
+function unhover(element)
+{
+  element.setAttribute('src', 'img/header.png');
+}
+
+
+
+//cursor glitter trail
+
 var colour="#fe50a1";
 var sparkles=120;
 
