@@ -30,7 +30,7 @@ body
 .footer
 {
 	padding-bottom: 5em;
-	padding-top: 5em;
+	padding-top: 10vh;
 	text-align: center;
 }
 
@@ -138,8 +138,19 @@ button:focus
 {
 	text-align: center;
 	color: #fe50a1;
-	font-size: 110%;
-	padding-top: 2em;
+	font-size: 120%;
+	padding-top: 5vh;
+}
+
+#book-pic
+{
+	max-width:250px;
+}
+
+#email a
+{
+	color: #fe50a1;
+	
 }
 
 h1 
@@ -257,6 +268,14 @@ a:active
 	.panel-footer
 	{
 		margin-bottom: 1em;
+	}
+	#book-pic
+	{
+		max-width:175px;
+	}
+	#email
+	{
+		font-size: 90%;
 	}
 }
 
