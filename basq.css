@@ -18,6 +18,7 @@ body
 .caption-font
 {
 	font-family: 'Hammersmith One', sans-serif;
+	color: white;
 }
 
 .banner
@@ -122,7 +123,7 @@ a:active
 	color: #fe50a1 !important;
 }
 
-.col-sm4:hover, .panel-heading:hover
+.col-sm4:hover, .panel-heading:hover, .panel-footer:hover
 {
 	color: #fe50a1 !important;
 }
