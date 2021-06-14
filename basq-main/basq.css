@@ -1,0 +1,152 @@
+body
+{
+	/*background-color: black;*/
+	color: white;
+	background: url('img/basq-bg.png');
+	background-repeat: repeat-y;
+	left: 0;
+	width: 100vw;
+	background-size: 100vw;
+}
+
+.header-font
+{
+	font-family: 'Staatliches', cursive;
+	color: white;
+}
+
+.caption-font
+{
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+.banner
+{
+	padding: 1rem 0rem;
+	background-color: transparent;
+	padding-bottom: 0;
+}
+
+.footer
+{
+	padding-bottom: 3em;
+	padding-top: 3em;
+	text-align: center;
+}
+
+.icon-link
+{
+	padding: 3em;
+	color: white;
+}
+
+.img1
+{
+width: 340px;
+height: auto;
+
+    -webkit-filter: grayscale(100%) !important;
+filter: grayscale(100%) !important;
+}
+
+.img2
+{
+width: 350px;
+height: auto;
+
+-webkit-filter: grayscale(100%) !important;
+filter: grayscale(100%) !important;
+}
+
+.img1:hover, .img2:hover
+{
+-webkit-filter: grayscale(0) !important;
+filter: grayscale(0) !important;
+}
+
+/*Prevents image overlap somehow*/
+
+@media screen and (max-width: 2000px) {
+  .img1, .img2 {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.fakeimg
+{
+    height: 200px;
+    background: #aaa;
+}
+
+.title-image
+{
+	width: 35vw;
+	height: auto;
+}
+
+#collapsibleNavbar
+{
+	justify-content: space-around;
+}
+
+.navbar
+{
+	background-color: transparent;
+	text-align: center;
+	padding-bottom: 1.5em;
+	padding-top: 1em;
+	border-bottom: 1px solid white;
+}
+
+.nav-item
+{
+	padding-left: 2em;
+	padding-right: 2em;
+	font-size: 1.15em;
+}
+
+h1 
+{
+	margin-bottom: 0;
+}
+
+a:hover {
+	color: #fe50a1 !important;
+}
+
+a:active
+{
+	color: #fe50a1 !important;
+}
+
+.nav-link{
+
+	color: white !important;
+}
+
+@media screen and (min-width:576px)
+{
+	.banner
+	{
+		padding:1rem 0rem;
+		padding-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 651px) and (max-width: 900px)
+{
+	.title-image
+	{
+		width: 60vw;
+	}
+}
+
+@media screen and (max-width: 650px)
+{
+	.title-image
+	{
+		width: 80vw;
+	}
+}
+
