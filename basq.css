@@ -30,7 +30,7 @@ body
 .footer
 {
 	padding-bottom: 5em;
-	padding-top: 5.5em;
+	padding-top: 3em;
 	text-align: center;
 }
 
@@ -94,8 +94,8 @@ filter: grayscale(0) !important;
 {
 	background-color: transparent;
 	text-align: center;
-	padding-bottom: 1em;
-	padding-top: 0.5em;
+	padding-bottom: 1.5em;
+	padding-top: 1em;
 	border-bottom: 1px solid white;
 }
 
@@ -111,17 +111,18 @@ h1
 	margin-bottom: 0;
 }
 
-h5
+a:hover 
 {
-	padding-top: 0em;
-	padding-bottom: 0.1em;
-}
-
-a:hover {
 	color: #fe50a1 !important;
+	text-decoration: none;
 }
 
 a:active
+{
+	color: #fe50a1 !important;
+}
+
+.col-sm4:hover, .panel-heading:hover
 {
 	color: #fe50a1 !important;
 }
