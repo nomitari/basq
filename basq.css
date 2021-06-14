@@ -168,7 +168,12 @@ a:active
 	color: #fe50a1 !important;
 }
 
-.col-sm-4:hover .panel-heading 
+.col-sm-4:hover .panel-heading
+{
+	color: #fe50a1 !important;
+}
+
+.col-sm-4:hover .panel-cap
 {
 	color: #fe50a1 !important;
 }
