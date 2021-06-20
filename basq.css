@@ -8,6 +8,16 @@ body
 	background-size: 100vw;
 }
 
+img
+{
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
 a
 {
 	color: white;
@@ -63,7 +73,20 @@ a
 	filter: grayscale(100%) !important;
 }
 
-.img1:hover, .img2:hover
+.center-div
+{
+	text-align: center;
+}
+
+.main-img
+{
+	max-width: 300px;
+
+	-webkit-filter: grayscale(100%) !important;
+	filter: grayscale(100%) !important;
+}
+
+.img1:hover, .img2:hover, .main-img:hover
 {
 	-webkit-filter: grayscale(0) !important;
 	filter: grayscale(0) !important;
@@ -93,7 +116,7 @@ a
 	text-align: center;
 	padding-bottom: 1.5em;
 	padding-top: 1em;
-	border-bottom: 1px solid white;
+	/*border-bottom: 1px solid white;*/
 }
 
 .navbar-toggler
